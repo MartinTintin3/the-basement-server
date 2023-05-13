@@ -22,7 +22,7 @@ export default class Server {
 			};
 		});
 
-		this.io = new socketio.Server(this.http_server, cors: { origin: "*" });
+		this.io = new socketio.Server(this.http_server, { cors: { origin: "*" } });
 		this.io.on("connection", this.#onConnection);
 	}
 
