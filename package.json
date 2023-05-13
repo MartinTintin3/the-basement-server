@@ -1,0 +1,23 @@
+{
+  "name": "the-basement-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/main.js",
+  "scripts": {},
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MartinTintin3/the-basement-server.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MartinTintin3/the-basement-server/issues"
+  },
+  "homepage": "https://github.com/MartinTintin3/the-basement-server#readme",
+  "dependencies": {
+    "socket.io": "^4.6.1",
+    "sqlite": "^4.2.0",
+    "sqlite3": "^5.1.6"
+  }
+}
